@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pressana Infra</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="stylefinal.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="#"><img src="Infra-1600x400-1.png" alt="logo" height="40"></a>
+        
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link mx-lg-2 dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Residential Property
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Golden Groove</a></li>
+                  <li><a class="dropdown-item" href="#">Grand Vista</a></li>
+                  <li><a class="dropdown-item" href="#">Urban Cloud</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link mx-lg-2 dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Commercial Property
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Coimbatore</a></li>
+                  <li><a class="dropdown-item" href="#">Pollachi</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#about-us">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#contact-us">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#">Career</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="bookbtn" type="button" id="scroll-to-toggle">
+            Book your site visit
+          </button>
+        <button
+          class="navbar-toggler pe-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="slider-container">
+        <div class="slide">
+    
+            <div class="item" style="background-image: url(./pinfra_1.png);">
+            </div>
+    
+            <div class="item" style="background-image: url(./pinfra2.png);">
+            </div>
+    
+            <div class="item" style="background-image: url(./pinfra3.png);">
+            </div>
+    
+            <div class="item" style="background-image: url(./pinfra4.png);">
+            </div>
+    
+        </div>
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+
+    <div class="minbody">
+      <div class="container" id="container">
+        <div class="form-container bookin">
+            <form class="contact-form">
+                <button type="button" class="cancel-btn" id="cancel-button">✖</button>
+                <div class="right-top2">
+                    <img src="pressanahighlight.png" alt="extra image2">
+                </div>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+                <br><br>
+                <label for="language">Preferred language for customer support?</label>
+
+                <input list="languages" id="language" name="language" placeholder="Select your comfortable language">
+                <datalist id="languages">
+                    <option value="Tamil">
+                    <option value="English">
+                </datalist>
+                <label>
+                    <label class="consent">
+                        <input type="checkbox">
+                        <span>
+                          I authorise Pressana Infra & its representatives to contact me with updates and notifications via Email/SMS/WhatsApp/Call. This will override DND/NDNC.
+                        </span>
+                    </label>
+                <button>Submit</button>
+            </form>
+        </div>
+      <div class="form-container about" id="about-us">
+          
+              <h1>About us</h1>
+              <p>Building on 31+ years of excellence to earn
+                   your trust with quality real estate solutions</p>
+              <p>Pressana Infra is a leading real estate company known for
+                   its reliable residential and commercial plots in the Kongu region,
+                    all approved by RERA/DTCP. Our dedicated team is passionate about
+                     understanding and meeting our customer's needs. Our mission is to deliver 
+                     exceptional service to help our customers find the perfect property.</p>
+      </div>
+      <div class="toggle-container" id="site-visit">
+          <div class="toggle">
+              <div class="toggle-panel toggle-left">
+                  <video class="hero-video" autoplay muted loop>
+                      <source src="presanna-video.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="toggle-panel toggle-right">
+                  <div class="right-top1">
+                      <img src="pressanahighlight.png" alt="extra image1">
+                  </div>
+                  <h1>Welcome, Valued Customer!</h1>
+                  <p>You are one step closer to your Dream Plot</p>
+                  <button class="hidden" id="book-button">Book your site visit</button>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="contact-us" id="contact-us">
+
+    <h1 style="font-weight: bold;">CONTACT US</h1>
+
+    <div class="contact-container">
+
+        <div class="left-section">
+
+            <img src="Infra-1600x400-1.png" alt="Pressana Infra" class="contact-image">
+
+            <p class="tagline">
+                Discover your perfect plot at Pressana Infra – premium real estate designed for modern living!
+            </p>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d125307.73540555677!2d76.9266509!3d11.0486171!3m2!1i1024!2i768!4f13.1!2m1!1sPressana%20Infra!5e0!3m2!1sen!2sin!4v1773594981573!5m2!1sen!2sin"
+                    width="100%"
+                    height="250"
+                    style="border:0;"
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+
+
+        <div class="right-section">
+
+            <h3>Reach us</h3>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                730/1, Avinashi Rd, Race Course, Coimbatore, Tamil Nadu 641018
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                info@pressanainfra.com
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +91 63844 44700
+            </p>
+
+
+            <div class="social-icons">
+
+                <a href="https://www.instagram.com/pressanainfra/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/urbancloudbypressana/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </section>
+
+
+    <script src="appfinal.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
